@@ -1,0 +1,25 @@
+[package]
+name = "sqlx_sqlite"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.sqlx]
+version = "0.5.9"
+features = ["runtime-tokio-rustls", "sqlite"]
+
+
+[dependencies.tokio]
+version = "1.14.0"
+features = ["full"]
+
+
+[dependencies.anyhow]
+version = "1.0.51"
+
+[dependencies.futures-util]
+version = "0.3.21"
+
+[dependencies.futures]
+version = "0.3.21"

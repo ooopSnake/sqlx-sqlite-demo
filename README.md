@@ -1,0 +1,1 @@
+# Rust sqlx sqlite demo
